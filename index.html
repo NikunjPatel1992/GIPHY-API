@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Animal GIPHY API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <!-- <script src="main.js"></script> -->
+
+    <!--Link to bootstrap file-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!--Link to jquary file-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid bg">
+        <div class="container text-center">
+            <div class="hader">
+                <h1>Animal Giphy API</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-9">
+                    <div id="gifbutton"> </div>
+                </div>
+
+                <div class="col-md-3">
+
+                    <form id="movie-form">
+                        <label for="movie-input">Add a Animal</label><hr>
+                        <input type="text" id="movie-input"><br /><br />
+
+                        <!-- Button triggers new movie to be added -->
+                        <input id="add-movie" type="submit" value="Add a Animal">
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="imgdiv">
+                <div id="rating">
+                </div>
+                <div id="gifimage">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- link to javascript -->
+    <script src="assets/javascript/game.js"></script>
+
+</body>
+
+
+</html>
