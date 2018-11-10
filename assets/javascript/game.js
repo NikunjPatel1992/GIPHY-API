@@ -42,7 +42,7 @@ $(document).ready(function () {
         $("#gifimage").empty();
         var buttonname = $(this).attr("data-name");
         console.log(buttonname);
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + buttonname + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + buttonname + "&api_key=dc6zaTOxFJmzC&limit=10";
         console.log(queryURL);
         $.ajax({
             url: queryURL,
